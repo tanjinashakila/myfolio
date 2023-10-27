@@ -1,0 +1,248 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+width: 1170px;
+margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    background-color: #cfc91d;
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+display: inline-block;
+    padding: 19px 52px;
+    text-transform: uppercase;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    text-align: center;
+     display: block;
+}
+.heading_p{
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    color: #a6a9ac;
+}
+.image_cnt {
+    margin-left: 160px;
+    width: 941px;  
+
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+    font-weight:400;
+    text-align: center;
+    color: #a6a9ac;
+
+}
+
+.card{
+width: 250px;
+height: 250px;
+color: #93969a;
+align-items: center;
+justify-content: center;
+font-size: 11px;
+padding: 55px;
+margin-left: 30px;
+
+}
+.card p{
+font-weight: 400;
+}
+.card h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* nav satrt */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    align-items: center;
+
+}
+nav .logo{
+    
+    width: 50%;
+}
+nav .menu{
+    width: 50%;
+}
+.menu a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+}
+.menu li{
+    display: inline-block;
+    padding: 19px 26px;
+    text-align: right;
+}
+/* nav ends */
+
+/* banner starts */
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    align-items: center;
+    height: 728px;
+    justify-content: center;
+    text-align: center;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+letter-spacing: 20px;
+color: white;
+
+}
+#banner p{
+    color: white;
+    font-size: 18px;
+}
+#banner img{
+    margin: 50px 0;
+}
+
+/* banner ends */
+
+
+ /* About starts  */
+
+
+#about span{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+     /* About ends */
+
+     /* service starts */
+
+     #service{
+        background-image: url(../images/service.png);
+        height: 728px;
+        background-size: cover;
+        background-position: center;
+    
+     }
+
+     #service  p{
+        font-size: 11px;
+        color: #93969a;
+        text-align: left;
+
+            }
+    
+
+    
+     #service .heading{
+               text-align: left ; 
+          }
+   
+    
+   
+     #service .container{
+        width: 648px;
+align-items: start;
+justify-content: start;
+margin: 0;
+text-align: left;
+
+     }
+    
+#service_cnt{
+padding-left: 81px;
+text-align: left;
+}
+     #service .row{
+        margin: 0;
+     }
+    
+     /* service ends */
+/* my work starts */
+#work .pic{
+    width: 314px;
+    height: 239px;
+}
+#work .front_div{
+    background-image: url(../images/pic6.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+/* my work ends */
+
+/* contact starts */
+#contact .row{
+    height: 624px;
+    background-color: #0b0b0b;
+    justify-content: center;
+
+}
+
+.menu2 ul li{
+    width: 633px;
+    height: 100px;
+border-bottom: 1px solid white;
+background-color: #0b0b0b;
+text-align: center;
+padding: 30px;
+
+}
+.menu2 li a{
+    color: #7e8287;
+}
+.menu2 .button{
+    margin-left: 240px;
+}
+
+/* contact ends */
+#end{
+   background-color:#000000; 
+   height: 30px;
+}
+#end p{
+color:#7e8287;
+font-size: 12px;
+
+text-align: center;
+}
